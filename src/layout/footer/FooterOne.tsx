@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import FooterLogo from '../../../public/assets/img/logo/footer-logo.png';
+import FooterLogo from '../../../public/assets/img/logo/newLogo.svg';
 import FooterBg from '../../../public/assets/img/bg/sound-bg.png';
 import Image from 'next/image';
 import FooterSubscribe from './FooterSubscribe';
