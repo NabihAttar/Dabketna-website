@@ -12,8 +12,8 @@ import workArrowImg from '../../../public/assets/img/work/arrow.png';
 import Image from 'next/image';
 import { imageLoader } from '@/hooks/ImageLoader';
 import WorkFutureSvgIconOne from '@/svg/WorkFutureIconOne';
-import WorkFutureSvgIconTwo from '@/svg/WorkFutureIconTwo';
-import WorkFutureSvgIconThree from '@/svg/WorkFutureIconThree';
+// import WorkFutureSvgIconTwo from '@/svg/WorkFutureIconTwo';
+// import WorkFutureSvgIconThree from '@/svg/WorkFutureIconThree';
 import Link from 'next/link';
 import { TWorkFuture } from '@/types/types';
 import WorkSystemAreaFour from '../work-system/WorkSystemAreaFour';
@@ -28,7 +28,7 @@ const WorkArea = () => {
         },
         {
             id: 2,
-            icon: <WorkFutureSvgIconTwo />,
+            icon: <WorkFutureSvgIconOne />,
             title: "Our Vision",
             description: "To build a world where Dabke is a lifestyle of connection, confidence, and cultural pride, empowering people worldwide to celebrate their identity."
         },
