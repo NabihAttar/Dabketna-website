@@ -13,6 +13,11 @@ const nextConfig = {
     // prevents Next.js from collecting traces, avoiding stack overflow
     scrollRestoration: false,
     craCompat: false,
+    outputFileTracingExcludes: {
+      '**/node_modules/**': true,
+      '**/.next/**': true,
+      '**/public/**': true,
+    },
   },
 };
 
