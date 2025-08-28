@@ -1,17 +1,16 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  pageExtensions: ['ts', 'tsx', 'js', 'jsx'], // only scan these files
-  reactStrictMode: true, // recommended
+  pageExtensions: ['ts', 'tsx', 'js', 'jsx'],
+  reactStrictMode: true,
   images: {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: '**', // allow all remote images
+        hostname: '**',
       },
     ],
   },
   webpack(config) {
-    // Add support for importing SVGs as React components
     config.module.rules.push({
       test: /\.svg$/,
       issuer: /\.[jt]sx?$/,
