@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+
 "use client"
 import React from 'react';
 import WorkBgImg from "../../../public/assets/img/bg/work-bg.jpg";
@@ -10,12 +12,11 @@ import workArrowImg from '../../../public/assets/img/work/arrow.png';
 import Image from 'next/image';
 import { imageLoader } from '@/hooks/ImageLoader';
 import WorkFutureSvgIconOne from '@/svg/WorkFutureIconOne';
-import WorkFutureSvgIconTwo from '@/svg/WorkFutureSvgIconTwo';
-import WorkFutureSvgIconThree from '@/svg/WorkFutureSvgIconThree';
+import WorkFutureSvgIconTwo from '@/svg/WorkFutureIconTwo';
+import WorkFutureSvgIconThree from '@/svg/WorkFutureIconThree';
 import Link from 'next/link';
 import { TWorkFuture } from '@/types/types';
 import WorkSystemAreaFour from '../work-system/WorkSystemAreaFour';
-
 
 const WorkArea = () => {
     const work_future_data: TWorkFuture[] = [
@@ -31,12 +32,6 @@ const WorkArea = () => {
             title: "Our Vision",
             description: "To build a world where Dabke is a lifestyle of connection, confidence, and cultural pride, empowering people worldwide to celebrate their identity."
         },
-        // {
-        //     id: 3,
-        //     icon: <WorkFutureSvgIconThree />,
-        //     title: "Enjoy your event.",
-        //     description: "Sit back, relax, and watch your party come to life."
-        // },
     ]
     return (
         <>
@@ -64,21 +59,6 @@ const WorkArea = () => {
                                         </div> 
                                     </div>
                                 </div>
-                                <div className="d-none d-sm-block">
-                                    {/* <div className="work__thumb-card ">
-                                        <div className="work__card-content">
-                                            <span>Excellent :</span>
-                                            <p>1050 Review On</p>
-                                        </div>
-                                        <div className="card__button">
-                                            <Link className="card__btn" href="#">
-                                                <Image loader={imageLoader} loading='lazy' width={20} height={20} src={workStarImg}
-                                                    alt="work icon" /> {" "}
-                                                <span>Trustpilot</span>
-                                            </Link>
-                                        </div>
-                                    </div> */}
-                                </div>
                             </div>
                         </div>
                         <div className="col-xl-6">
@@ -86,7 +66,7 @@ const WorkArea = () => {
                                 <div className="section__title-wrapper mb-50 bd-title-anim">
                                     <span className="section__subtitle">About Us</span>
                                     <h2 className="section__title two">
-                                        The World's Home {" "}
+                                        The World&apos;s Home {" "}
                                         <span className="animated-underline active">for Dabke</span>
                                     </h2>
                                     <div  style={{ marginTop: "30px" }}>
@@ -132,7 +112,6 @@ const WorkArea = () => {
                     </div>
                 </div>
                 <WorkSystemAreaFour />
-
             </section>
         </>
     );
