@@ -1,7 +1,7 @@
 "use client"
 import Link from 'next/link';
 import React from 'react';
-import bannerBg from '../../../public/assets/img/banner/HeroSection.png';
+import bannerBg from '../../../public/assets/img/banner/heroTest.jpg';
 import bannerTitleBg2 from '../../../public/assets/img/banner/BehindTheHeroSecton.jpg';
 import NiceSelect from '../common/NiceSelect';
 import { bannerFormSelectOne, bannerFormSelectThree, bannerFormSelectTwo } from '@/data/nice-select-data';

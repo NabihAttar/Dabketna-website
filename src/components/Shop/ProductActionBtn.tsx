@@ -2,6 +2,7 @@
 import useCart from '@/hooks/useCart';
 import Link from 'next/link';
 import React from 'react';
+import CartProductSection from '../cart/CartProductSection';
 
 const ProductActionBtn = () => {
     const { UseWishlstQuantity, UseCartProductQuantity } = useCart();
@@ -21,6 +22,7 @@ const ProductActionBtn = () => {
                     </Link></li>
                 </ul>
             </div>
+            {/* <CartProductSection/> */}
         </>
     );
 };

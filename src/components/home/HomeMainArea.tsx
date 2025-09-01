@@ -28,6 +28,7 @@ const HomeMainArea = () => {
             <ProductArea />
             <LatestNewsOne /> 
             <FunctionBandsSectionOne />
+            
             <PartnerAreaSliderOne />
             {/* <WorkSystemAreaFour /> */}
             {/* <ChooseUsArea /> */} 

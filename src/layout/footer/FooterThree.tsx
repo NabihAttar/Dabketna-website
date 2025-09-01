@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import FooterLogo from '../../../public/assets/img/logo/footer3-logo.png';
+import FooterLogo from '../../../public/assets/img/logo/newLogo.svg';
 import FooterStartImg from '../../../public/assets/img/footer/start-01.png';
 import FooterBgImg from '../../../public/assets/img/bg/footer-bg.png';
 import Image from 'next/image';
@@ -19,7 +19,7 @@ const FooterThree = () => {
                             <div className="ms-border2">
                                 <div className="ms-footer2-logo mb-130 mx-auto">
                                     <Link href="/">
-                                        <Image src={FooterLogo} loader={imageLoader} placeholder="blur" loading='lazy' width={96} height={108}
+                                        <Image src={FooterLogo} loader={imageLoader}  loading='lazy' width={96} height={108}
                                             alt="footer logo" />
                                     </Link>
                                 </div>

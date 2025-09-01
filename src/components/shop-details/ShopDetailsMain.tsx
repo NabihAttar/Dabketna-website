@@ -34,7 +34,7 @@ const ShopDetailsMain = ({ id }: idType) => {
 
     return (
         <>
-            <ShopBradcrumb title='Denon DJ LC6000 Prime...' />
+            {/* <ShopBradcrumb title='Denon DJ LC6000 Prime...' /> */}
             <div className="ms-product-area pt-130 pb-130 p-relative">
                 <div className="container">
                     <div className="row mb-30">

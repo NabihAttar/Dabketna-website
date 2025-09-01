@@ -5,6 +5,7 @@ import FooterBg from '../../../public/assets/img/bg/sound-bg.png';
 import Image from 'next/image';
 import FooterSubscribe from './FooterSubscribe';
 
+
 const FooterOne = () => {
     return (
         <>

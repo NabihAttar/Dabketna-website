@@ -7,12 +7,14 @@ import Image from 'next/image';
 import { imageLoader } from '@/hooks/ImageLoader';
 import PaginationData from '../common/pagination/pagination-data';
 import PartnerAreaMain from '../common/PartnerArea/PartnerAreaMain';
+import GenresListingArea from '../genres/GenresAboutArea';
+
 
 const EventMainArea = () => {
     return (
         <>
             <BradcrumbThree title='Special Event' />
-            <section className="ms-event3-area pt-130 pb-115">
+            {/* <section className="ms-event3-area pt-130 pb-115">
                 <div className="container">
                     <div className="ms-border2 pb-40">
                         <div className="row ms-event3-wrap">
@@ -48,8 +50,9 @@ const EventMainArea = () => {
                         </div>
                     </div>
                 </div>
-            </section>
-            <PartnerAreaMain />
+            </section> */}
+            {/* <PartnerAreaMain /> */}
+            {/* <GenresListingArea/> */}
         </>
     );
 };

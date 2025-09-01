@@ -38,7 +38,7 @@ const menu_data: TMenuItem[] = [
         id: 2,
         hasDropdown: false,
         title: "Academy",
-        link: "/about",
+        link: "/academy",
     },
     {
         id: 3,
@@ -116,7 +116,7 @@ const menu_data: TMenuItem[] = [
         id: 5,
         hasDropdown: false,
         title: "Events",
-        link: "/news",
+        link: "/event",
         // submenus: [
         //     { title: "Blog", link: "/blog" },
         //     { title: "Blog Details", link: "/blog-details" }
@@ -126,7 +126,7 @@ const menu_data: TMenuItem[] = [
         id: 6,
         hasDropdown: false,
         title: "Shop",
-        link: "/contact",
+        link: "/shop",
     },
 ]
 

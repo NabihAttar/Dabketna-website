@@ -2,6 +2,8 @@ import Setting from '@/components/common/setting/Setting';
 import EventMainArea from '@/components/event/EventMainArea';
 import Wrapper from '@/layout/DefaultWrapper';
 import React from 'react';
+import GenresListingArea from '../genres/page';
+import EventDetailsMain from '../event-details/page';
 
 const page = () => {
     return (
@@ -9,7 +11,9 @@ const page = () => {
             <div className="ms-all-content ms-all-content-space">
                 <main>
                     <EventMainArea />
-                    <Setting />
+                    {/* <Setting /> */}
+                    {/* <GenresListingArea/> */}
+                    <EventDetailsMain/>
                 </main>
             </div>
         </Wrapper>

@@ -4,6 +4,7 @@ import ShopMainArea from '@/components/Shop/ShopMainArea';
 import Setting from '@/components/common/setting/Setting';
 import Wrapper from '@/layout/DefaultWrapper';
 import React from 'react';
+import ShopDetailsMain from '../shop-details/page'
 
 const page = () => {
     return (
@@ -13,6 +14,7 @@ const page = () => {
                     <main>
                         <ShopMainArea />
                         <Setting />
+                        <ShopDetailsMain/>
                     </main>
                 </div>
             </Wrapper>
