@@ -1,19 +1,19 @@
+// src/app/academy/page.tsx
 "use client";
 
 import React from "react";
-import GenresDetailsMainArea from "../genres-details/page"; // Make sure this is a component file
 
 type TProps = {
   title?: string;
 };
 
-const BradcrumbThree: React.FC<TProps> = ({ title }) => {
+const AcademyPage: React.FC<TProps> = ({ title }) => {
   return (
-    <section>
-      <h1>{title || "Default Title"}</h1>
-      <GenresDetailsMainArea />
-    </section>
+    <div>
+      <h1>{title || "Academy Page"}</h1>
+      {/* Add your Academy page content here */}
+    </div>
   );
 };
 
-export default BradcrumbThree;
+export default AcademyPage;
