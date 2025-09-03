@@ -8,10 +8,12 @@ import Link from "next/link";
 import React from "react";
 import PaginationData from "../common/pagination/pagination-data";
 import NiceSelect from "../common/NiceSelect";
+type TGenresListing = typeof genres_listing_data[number] & { smallImages?: string[] };
 
 type TNiceSelectData = {
   id: number;
   optionName: string;
+   smallImages?: string[];
 };
 
 const GenresListingArea = () => {
