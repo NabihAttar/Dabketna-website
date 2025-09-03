@@ -8,12 +8,27 @@ import Link from "next/link";
 import React from "react";
 import PaginationData from "../common/pagination/pagination-data";
 import NiceSelect from "../common/NiceSelect";
-type TGenresListing = typeof genres_listing_data[number] & { smallImages?: string[] };
 
 type TNiceSelectData = {
   id: number;
   optionName: string;
-   smallImages?: string[];
+};
+
+type TGenresListing = {
+  id: number;
+  title: string;
+  image: string;
+  price: number;
+  videoUrl?: string;
+  activeClass?: string;
+  description?: string;
+  mapLink?: string;
+  location?: string;
+  ratings?: number;
+  ratingNum?: number;
+  duration?: string;
+  people?: string;
+  smallImages?: string[]; // optional property
 };
 
 const GenresListingArea = () => {
@@ -103,7 +118,7 @@ const GenresListingArea = () => {
             tabIndex={0}
           >
             <div className="row">
-              {genres_listing_data.slice(0, 14).map((item) => (
+              {genres_listing_data.slice(0, 14).map((item: TGenresListing) => (
                 <div className="col-xl-6" key={item.id}>
                   <div className="ms-genres-item ms-genres-flex mb-25">
                     <div className="ms-genres-img ms-br-15 fix w-img genres-img-214">
@@ -170,7 +185,7 @@ const GenresListingArea = () => {
             tabIndex={0}
           >
             <div className="row">
-              {genres_listing_data.slice(14, 23).map((item) => (
+              {genres_listing_data.slice(14, 23).map((item: TGenresListing) => (
                 <div className="col-xl-4 col-lg-6" key={item.id}>
                   <div
                     style={{
@@ -228,7 +243,7 @@ const GenresListingArea = () => {
 
                     {/* Small Images */}
                     <div style={{ display: "flex", gap: "8px", marginBottom: "16px" }}>
-                      {(item.smallImages && item.smallImages.length > 0
+                      {(item.smallImages?.length
                         ? item.smallImages
                         : [item.image, item.image, item.image]
                       ).map((img: string, index: number) => (
@@ -247,11 +262,7 @@ const GenresListingArea = () => {
                             loader={imageLoader}
                             alt={`small-${index}`}
                             unoptimized
-                            style={{
-                              width: "100%",
-                              height: "100%",
-                              objectFit: "cover",
-                            }}
+                            style={{ width: "100%", height: "100%", objectFit: "cover" }}
                           />
                         </div>
                       ))}
