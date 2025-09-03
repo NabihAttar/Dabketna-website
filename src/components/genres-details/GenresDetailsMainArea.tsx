@@ -25,6 +25,8 @@ const GenresDetailsMainArea = ({ id }: idType) => {
         setIsOpen(!isOpen);
         setvideoId(id)
     }
+    
+    
     return (
         <>
             <section className="ms-genres-area pt-130 pb-70">

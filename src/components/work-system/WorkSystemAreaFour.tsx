@@ -9,6 +9,7 @@ import { TWorkFuture } from '@/types/types';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import GenresListingArea from '../genres/GenresListingArea'
 
 const WorkSystemAreaFour = () => {
     const work_future_data: TWorkFuture[] = [
@@ -90,6 +91,7 @@ const WorkSystemAreaFour = () => {
                                 </div>
                             </div>
                         </div> */}
+                        <GenresListingArea />
                     </div>
                 </div>
             </section>
