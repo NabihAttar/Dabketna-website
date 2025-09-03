@@ -1,18 +1,16 @@
-import React from "react";
-import GenresDetailsMainArea from "../genres-details/page";
+"use client";
 
-const EventBg = "/assets/img/event/event-bg-4.jpg";
+import React from "react";
+import GenresDetailsMainArea from "../genres-details/page"; // Make sure this is a component file
 
 type TProps = {
-  title: string | undefined;
+  title?: string;
 };
 
-const BradcrumbThree = ({ title }: TProps) => {
+const BradcrumbThree: React.FC<TProps> = ({ title }) => {
   return (
-  <section>
- 
-
-
+    <section>
+      <h1>{title || "Default Title"}</h1>
       <GenresDetailsMainArea />
     </section>
   );
