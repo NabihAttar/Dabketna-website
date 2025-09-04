@@ -236,15 +236,8 @@ const GenresListingArea = () => {
                       />
                     </div>
 
-                    {/* Small Images - Fixed this part */}
-                    <div
-                      style={{
-                        display: "flex",
-                        gap: "8px",
-                        marginBottom: "16px",
-                      }}
-                    >
-                      {/* Use the main image repeated 3 times since smallImages doesn't exist */}
+                    {/* Small Images - FIXED */}
+                    <div style={{ display: "flex", gap: "8px", marginBottom: "16px" }}>
                       {Array.from({ length: 3 }, (_, index) => (
                         <div
                           key={index}
