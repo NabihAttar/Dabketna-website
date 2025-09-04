@@ -236,7 +236,7 @@ const GenresListingArea = () => {
                       />
                     </div>
 
-                    {/* Small Images */}
+                    {/* Small Images - Fixed this part */}
                     <div
                       style={{
                         display: "flex",
@@ -244,10 +244,8 @@ const GenresListingArea = () => {
                         marginBottom: "16px",
                       }}
                     >
-                      {(item.smallImages && item.smallImages.length > 0
-                        ? item.smallImages
-                        : [item.image, item.image, item.image]
-                      ).map((img: string, index: number) => (
+                      {/* Use the main image repeated 3 times since smallImages doesn't exist */}
+                      {Array.from({ length: 3 }, (_, index) => (
                         <div
                           key={index}
                           style={{
@@ -259,7 +257,7 @@ const GenresListingArea = () => {
                           }}
                         >
                           <Image
-                            src={img}
+                            src={item.image}
                             loader={imageLoader}
                             alt={`small-${index}`}
                             unoptimized
@@ -294,7 +292,7 @@ const GenresListingArea = () => {
                         }}
                       >
                         <i className="fa-regular fa-clock"></i>
-                        <span>{item.duration || "30 mins"}</span>
+                        <span>30 mins</span>
                       </div>
                       <div
                         style={{
@@ -304,7 +302,7 @@ const GenresListingArea = () => {
                         }}
                       >
                         <i className="fa-regular fa-user"></i>
-                        <span>{item.people || "10"}</span>
+                        <span>10</span>
                       </div>
                     </div>
 
