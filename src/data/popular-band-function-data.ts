@@ -1,13 +1,13 @@
 
 import { TPopularBands } from '@/types/types';
-import image1 from '../../public/assets/img/function-brand/function-brand-01.png';
-import image2 from '../../public/assets/img/function-brand/function-brand-02.png';
-import image3 from '../../public/assets/img/function-brand/function-brand-03.png';
-import image4 from '../../public/assets/img/function-brand/function-brand-04.png';
-import image5 from '../../public/assets/img/function-brand/function-brand-05.png';
-import image6 from '../../public/assets/img/function-brand/function-brand-06.png';
-import image7 from '../../public/assets/img/function-brand/function-brand-07.png';
-import image8 from '../../public/assets/img/function-brand/function-brand-08.png';
+import image1 from '../../public/assets/img/flags/Bahrain.svg';
+import image2 from '../../public/assets/img/flags/Cyprus.svg';
+import image3 from '../../public/assets/img/flags/UAE.svg';
+import image4 from '../../public/assets/img/flags/india.svg';
+import image5 from '../../public/assets/img/flags/Jordan.svg';
+import image6 from '../../public/assets/img/flags/Lebanon.svg';
+import image7 from '../../public/assets/img/flags/Pakistan.svg';
+import image8 from '../../public/assets/img/flags/Syria.svg';
 
 
 const popular_band_fuction_data: TPopularBands[] = [
@@ -15,7 +15,7 @@ const popular_band_fuction_data: TPopularBands[] = [
     {
         id: 1,
         image: image1,
-        title: "Beastie Boys",
+        title: "Bahrain",
         subTitle: "American hip-hop",
         locationName: "Ohio",
         rating: 5
@@ -23,7 +23,7 @@ const popular_band_fuction_data: TPopularBands[] = [
     {
         id: 2,
         image: image2,
-        title: "Blondie",
+        title: "Cyprus",
         subTitle: "American rock group",
         locationName: "Chicago",
         rating: 4
@@ -31,7 +31,7 @@ const popular_band_fuction_data: TPopularBands[] = [
     {
         id: 3,
         image: image3,
-        title: "Black Sabbath",
+        title: "UAE",
         subTitle: "British rock group",
         locationName: "London",
         rating: 5
@@ -39,7 +39,7 @@ const popular_band_fuction_data: TPopularBands[] = [
     {
         id: 4,
         image: image4,
-        title: "Beastie Boys",
+        title: "India",
         subTitle: "American hip-hop",
         locationName: "Georgia",
         rating: 5
@@ -47,7 +47,7 @@ const popular_band_fuction_data: TPopularBands[] = [
     {
         id: 5,
         image: image5,
-        title: "The Coasters",
+        title: "Jordan",
         subTitle: "Canada band group",
         locationName: "London",
         rating: 5
@@ -55,7 +55,7 @@ const popular_band_fuction_data: TPopularBands[] = [
     {
         id: 6,
         image: image6,
-        title: "Blondie",
+        title: "Lebanon",
         subTitle: "American rock group",
         locationName: "City Club",
         rating: 4
@@ -63,7 +63,7 @@ const popular_band_fuction_data: TPopularBands[] = [
     {
         id: 7,
         image: image7,
-        title: "Blondie",
+        title: "Pakistan",
         subTitle: "American rock group",
         locationName: "City Club",
         rating: 4
@@ -71,7 +71,7 @@ const popular_band_fuction_data: TPopularBands[] = [
     {
         id: 8,
         image: image8,
-        title: "Black Sabbath",
+        title: "Syria",
         subTitle: "British rock group",
         locationName: "Kenia",
         rating: 5

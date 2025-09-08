@@ -23,8 +23,8 @@ const SpecialEventSliderOne = () => {
                         <div className="col-lg-8">
                             <div className="section__title-wrapper mb-40 bd-title-anim">
                                 <span className="section__subtitle">Upcomming Events</span>
-                                <h2 className="section__title"><span className="animated-underline active">Where the Beat </span> {" "}
-                                    Comes to Life
+                                <h2 className="section__title"><span className="animated-underline active">Where the World </span> {" "}
+                                    Dances Dabke
                                 </h2>
                             </div>
                         </div>

@@ -15,6 +15,7 @@ import AboutTeamArea from '../about/AboutTeamArea';
 import ChooseUsArea from '../about/ChooseUsArea';
 import WorkSystemAreaFour from '../work-system/WorkSystemAreaFour';
 import ProductArea from '../Shop/ProductArea';
+import GenresListingArea from '../genres/GenresListingArea'
 
 const HomeMainArea = () => {
     return (
@@ -23,8 +24,10 @@ const HomeMainArea = () => {
             <HeroOne />
             <TextScrollArea />
             <WorkArea />
-            <TrendingareaOne />
             <SpecialEventSliderOne />
+            <GenresListingArea />
+            {/* <TrendingareaOne /> */}
+            
             <ProductArea />
             <LatestNewsOne /> 
             <FunctionBandsSectionOne />

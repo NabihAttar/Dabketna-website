@@ -42,7 +42,7 @@ const Wrapper: React.FC<WrapperProps> = ({ children }) => {
       {(() => {
         switch (pathName) {
           case "/":
-            return <FooterOne />
+            return <FooterThree />
           case "/home-2":
             return <FooterTwo />
           default:

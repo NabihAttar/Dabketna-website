@@ -23,7 +23,7 @@ const FooterThree = () => {
                                             alt="footer logo" />
                                     </Link>
                                 </div>
-                                <div className=" ms-footer2-top-inner ms-border1 ms-br-100 ms-bg-4 mb-65">
+                                {/* <div className=" ms-footer2-top-inner ms-border1 ms-br-100 ms-bg-4 mb-65">
                                     <div className="row align-items-center">
                                         <div className="col-lg-6">
                                             <div className="ms-footer2-rating three mb-10">
@@ -50,7 +50,7 @@ const FooterThree = () => {
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                                 <div className="row mb-15">
                                     <div className="col-xxl-4 col-lg-5 col-md-6">
                                         <div className="ms-footer2-widget mb-50 pr-20">
@@ -68,70 +68,59 @@ const FooterThree = () => {
                                                     </li>
                                                 </ul>
                                             </div>
-                                            <div className="ms-footer-social mb-15">
+                                            {/* <div className="ms-footer-social mb-15">
                                                 <Link href="https://www.instagram.com/" title="Instagram"
                                                     target="_blank">IN</Link>
                                                 <Link href="https://twitter.com/" title="Twitter" target="_blank">TW</Link>
                                                 <Link href="https://www.facebook.com/" title="Facebook" target="_blank">FB</Link>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                     <div className="col-xxl-2 col-lg-3 col-md-6">
                                         <div className="ms-footer2-widget ms-footer2-widget2 mb-50">
-                                            <h3 className="ms-footer2-title">Company</h3>
+                                            <h3 className="ms-footer2-title">Shop & Learn</h3>
                                             <ul>
-                                                <li><Link href="/about">About us</Link></li>
-                                                <li><Link href="/contact">Contact us</Link></li>
-                                                <li><Link href="/terms-policy">Terms & Policy</Link></li>
-                                                <li><Link href="/contact">Help & Support</Link></li>
-                                                <li><Link href="/faq">Faq</Link></li>
+                                                <li><Link href="/about">Online Courses</Link></li>
+                                                <li><Link href="/contact">Academy</Link></li>
+                                                <li><Link href="/terms-policy">Apparel Shop</Link></li>
                                             </ul>
                                         </div>
                                     </div>
                                     <div className="col-xxl-2 col-lg-3 col-md-6">
                                         <div className="ms-footer2-widget mb-50">
-                                            <h3 className="ms-footer2-title">Local Band Group</h3>
+                                            <h3 className="ms-footer2-title">Performance</h3>
                                             <ul>
-                                                <li><Link href="/team">The Tricks</Link></li>
-                                                <li><Link href="/team">Sound City</Link></li>
-                                                <li><Link href="/team">Big Teaser</Link></li>
-                                                <li><Link href="/team">The New Tones</Link></li>
-                                                <li><Link href="/team">Halos Music</Link></li>
-                                                <li><Link href="/team">Soho Soul</Link></li>
-                                                <li><Link href="/team">Atlantic</Link></li>
-                                                <li><Link href="/team">The Fiction</Link></li>
+                                                <li><Link href="/team">Events</Link></li>
+                                                <li><Link href="/team">Wedding</Link></li>
                                             </ul>
                                         </div>
                                     </div>
-                                    <div className="col-xxl-2 col-lg-3 col-md-6">
-                                        <div className="ms-footer2-widget mb-50">
-                                            <h3 className="ms-footer2-title">Trending Genres</h3>
-                                            <ul>
-                                                <li><Link href="/genres-details">Wedding Bands</Link></li>
-                                                <li><Link href="/genres-details">Jazz & Swing</Link></li>
-                                                <li><Link href="/genres-details">Musician</Link></li>
-                                                <li><Link href="/genres-details">Classical Musician</Link></li>
-                                                <li><Link href="/genres-details">Corporate Party</Link></li>
-                                                <li><Link href="/genres-details">Premiere Party Band</Link></li>
-                                                <li><Link href="/genres-details">DJ Songs</Link></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div className="col-xxl-2 col-lg-3 col-md-6">
-                                        <div className="ms-footer2-widget mb-50">
-                                            <h3 className="ms-footer2-title">Country We Serve</h3>
-                                            <ul>
-                                                <li><Link href="/contact">United State</Link></li>
-                                                <li><Link href="/contact">Canada</Link></li>
-                                                <li><Link href="/contact">Australia</Link></li>
-                                                <li><Link href="/contact">China</Link></li>
-                                                <li><Link href="/contact">South Korea</Link></li>
-                                                <li><Link href="/contact">Japan</Link></li>
-                                                <li><Link href="/contact">Singapore</Link></li>
-                                                <li><Link href="/contact">Hong Kong</Link></li>
-                                            </ul>
-                                        </div>
-                                    </div>
+  <div className="col-xxl-4 col-lg-6 col-md-12">
+  <div className="ms-footer2-widget mb-50 text-center">
+    <h3 className="ms-footer2-title mb-30">Countries We Serve</h3>
+
+    <div className="row justify-content-center">
+      <div className="col-6">
+        <ul>
+          <li><Link href="/genres-details">Lebanon</Link></li>
+          <li><Link href="/genres-details">Syria</Link></li>
+          <li><Link href="/genres-details">Jordan</Link></li>
+          <li><Link href="/genres-details">UAE</Link></li>
+        </ul>
+      </div>
+      <div className="col-6">
+        <ul>
+          <li><Link href="/genres-details">Turkey</Link></li>
+          <li><Link href="/genres-details">Cyprus</Link></li>
+          <li><Link href="/genres-details">Pakistan</Link></li>
+          <li><Link href="/genres-details">India</Link></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+                                   
                                 </div>
                             </div>
                         </div>
@@ -140,7 +129,7 @@ const FooterThree = () => {
                         <div className="container">
                             <div className="ms-footer-bottom-wrap text-center pt-35 pb-20">
                                 <div className="ms-footer-copy">
-                                    <p>© Musicly 2024, All Rights Reserved</p>
+                                    <p>© Dabketna 2025, All Rights Reserved</p>
                                 </div>
                             </div>
                         </div>

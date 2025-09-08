@@ -35,8 +35,8 @@ const WorkSystemAreaFour = () => {
     ]
     return (
         <>
-            <section className="ms-work-system-area pt-130 pb-130">
-                <div className="container">
+            <section className="ms-work-system-area ">
+                {/* <div className="container">
                     <div className="ms-work-system-wrap">
                         <div className="ms-work-system-grid mb-10">
                             {
@@ -54,7 +54,7 @@ const WorkSystemAreaFour = () => {
                                     </div>
                                 ))
                             }
-                        </div>
+                        </div> */}
                         {/* <div className="ms-work-system-img d-inline-block fix m-img ms-br-15 mb-60">
                             <Image src={workIcon} loader={imageLoader} loading='lazy' style={{ width: 'auto', height: "auto" }}
                                 alt="work system image" />
@@ -91,9 +91,9 @@ const WorkSystemAreaFour = () => {
                                 </div>
                             </div>
                         </div> */}
-                        <GenresListingArea />
-                    </div>
-                </div>
+                        {/* <GenresListingArea /> */}
+                    {/* </div> */}
+                {/* </div> */}
             </section>
         </>
     );
