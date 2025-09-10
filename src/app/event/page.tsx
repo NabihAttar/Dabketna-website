@@ -5,15 +5,24 @@ import React from 'react';
 import GenresListingArea from '../genres/page';
 import EventDetailsMain from '../event-details/page';
 
+
 const page = () => {
     return (
         <Wrapper>
             <div className="ms-all-content ms-all-content-space">
                 <main>
                     <EventMainArea />
+                                {/* <WorkSystemAreaFour /> */}
+            {/* <ChooseUsArea /> */} 
+            {/* <AboutTeamArea /> */}
+            {/* <TestimonialSliderOne /> */}
+            {/* <PopularAreaOne /> */}
+            {/*  <CtaArea /> */}
+            {/* <TrendingareaOne /> */} 
+            {/* <BrandSectionOne /> */}
                     {/* <Setting /> */}
                     {/* <GenresListingArea/> */}
-                    <EventDetailsMain/>
+                    {/* <EventDetailsMain/> */}
                 </main>
             </div>
         </Wrapper>

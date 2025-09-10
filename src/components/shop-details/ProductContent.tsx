@@ -48,7 +48,7 @@ const ProductContent = () => {
                         feel a mild, dull pain there that he had never felt
                         before.</p>
                 </div>
-                <div className="ms-product-specifications mb-25">
+                {/* <div className="ms-product-specifications mb-25">
                     <h3 className="ms-title3 white-text mb-25">Specifications</h3>
                     <div className="ms-product-stock sku d-inline-block">
                         <div className="ms-product-stock-item mb-20">
@@ -64,15 +64,15 @@ const ProductContent = () => {
                             <span className="ms-product-sku-text">LC6000PRIMEXUS</span>
                         </div>
                     </div>
-                </div>
-                <div className="ms-product-warranty mb-25">
+                </div> */}
+                {/* <div className="ms-product-warranty mb-25">
                     <h3 className="ms-title3 white-text mb-25">What is included</h3>
                     <div className="ms-product-stock-item mb-20">
                         <span className="ms-product-sku">1 Year</span> {" "}
                         <span className="ms-product-sku-text">Limited Denon
                             Warranty</span>
                     </div>
-                </div>
+                </div> */}
             </div>
         </>
     );

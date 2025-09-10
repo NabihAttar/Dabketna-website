@@ -34,8 +34,8 @@ const ShopDetailsMain = ({ id }: idType) => {
 
     return (
         <>
-            {/* <ShopBradcrumb title='Denon DJ LC6000 Prime...' /> */}
-            <div className="ms-product-area pt-130 pb-130 p-relative">
+            <ShopBradcrumb title='Denon DJ LC6000 Prime...' /> 
+             <div className="ms-product-area pt-130 pb-130 p-relative">
                 <div className="container">
                     <div className="row mb-30">
                         <div className="col-lg-6">
@@ -154,20 +154,28 @@ const ShopDetailsMain = ({ id }: idType) => {
                                 <div className="ms-is-product-stock mb-25">
                                     <span><i className="fa-solid fa-check"></i> In stock</span>
                                 </div>
-                                <div className="ms-product-stock sku ms-border2 d-inline-block pb-10 mb-30">
-                                    <div className="ms-product-stock-item mb-20">
-                                        <span className="ms-product-sku">UPC</span> {" "}
-                                        <span className="ms-product-sku-text">694318025154</span>
-                                    </div>
-                                    <div className="ms-product-stock-item mb-20">
-                                        <span className="ms-product-sku">EAN-13</span> {" "}
-                                        <span className="ms-product-sku-text">0694318025154</span>
-                                    </div>
-                                    <div className="ms-product-stock-item mb-20">
-                                        <span className="ms-product-sku">Model</span> {" "}
-                                        <span className="ms-product-sku-text">LC6000PRIMEXUS</span>
-                                    </div>
-                                </div>
+<div className="ms-product-stock sku ms-border2 d-flex flex-column pb-10 mb-30">
+    {/* Color Selector */}
+    <div className="ms-product-stock-item mb-20">
+        <span className="ms-product-sku">Color</span>
+        <div className="d-flex gap-2 mt-2">
+            <div className="color-box"></div>
+            <div className="color-box" ></div>
+            <div className="color-box"></div>
+        </div>
+    </div>
+
+    {/* Size Selector */}
+    <div className="ms-product-stock-item mb-20">
+        <span className="ms-product-sku">Size</span>
+        <div className="d-flex gap-2 mt-2">
+            <button className="size-btn">36 EU</button>
+            <button className="size-btn">38 EU</button>
+            <button className="size-btn">42 EU</button>
+        </div>
+    </div>
+</div>
+
                                 <div className="ms-product-short-desc mb-25">
                                     <p>Typi non habent claritatem insitam, est usus legentis in iis qui facit
                                         eorum claritatem. Investigationes demonstraverunt</p>
@@ -194,8 +202,10 @@ const ShopDetailsMain = ({ id }: idType) => {
                                             </form>
                                         </div>
                                         <Link href="/cart" className="ms-addto-cart-btn"><span>View Cart</span></Link>
+                                         <Link href="/checkout" className="vr-btn"><span>VR Preview</span></Link>
                                     </div>
                                 </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -208,12 +218,12 @@ const ShopDetailsMain = ({ id }: idType) => {
                                             data-bs-target="#home-tab-pane" type="button" role="tab"
                                             aria-controls="home-tab-pane" aria-selected="true">Description</button>
                                     </li>
-                                    <li className="nav-item" role="presentation">
+                                    {/* <li className="nav-item" role="presentation">
                                         <button className="nav-link" id="profile-tab" data-bs-toggle="tab"
                                             data-bs-target="#profile-tab-pane" type="button" role="tab"
                                             aria-controls="profile-tab-pane" aria-selected="false">Media
                                             Review</button>
-                                    </li>
+                                    </li> */}
                                 </ul>
                                 <div className="tab-content" id="myTabContent">
                                     <div className="tab-pane fade show active" id="home-tab-pane" role="tabpanel"
@@ -231,7 +241,7 @@ const ShopDetailsMain = ({ id }: idType) => {
                     </div>
                 </div>
             </div>
-            <PartnerAreaMain />
+            {/* <PartnerAreaMain /> */}
         </>
     );
 };

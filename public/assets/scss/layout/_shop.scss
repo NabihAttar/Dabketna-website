@@ -454,6 +454,45 @@
         padding: 0 42px;
     }
 }
+.vr-btn {
+    border: double 2px transparent;
+    border-radius: 80px;
+    height: 60px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(165, 24, 24, 1);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    color: #fff;
+
+    span {
+        padding: 0 42px;
+    }
+}
+.color-box {
+    background-color: #ccc;
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #ddd; /* optional if you want the border */
+}
+
+
+.size-btn {
+    border: 1px solid #fff;
+    border-radius: 50px;
+    padding: 6px 16px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+.size-btn:hover {
+    background-color: rgba(255,255,255,0.1);
+}
+
 
 .ms-product-modal-wrapper {
     padding: 35px 30px 25px 30px;

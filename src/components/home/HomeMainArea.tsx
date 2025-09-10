@@ -20,13 +20,13 @@ import GenresListingArea from '../genres/GenresListingArea'
 const HomeMainArea = () => {
     return (
         <>
-            {/* <BrandSectionOne /> */}
+         
             <HeroOne />
             <TextScrollArea />
             <WorkArea />
             <SpecialEventSliderOne />
             <GenresListingArea />
-            {/* <TrendingareaOne /> */}
+            
             
             <ProductArea />
             <LatestNewsOne /> 
@@ -39,6 +39,8 @@ const HomeMainArea = () => {
             {/* <TestimonialSliderOne /> */}
             {/* <PopularAreaOne /> */}
             {/*  <CtaArea /> */}
+            {/* <TrendingareaOne />  */}
+            {/* <BrandSectionOne /> */}
         </>
     );
 };

@@ -136,12 +136,12 @@ const ProductArea = () => {
                                                         </ul>
                                                     </div>
                                                 </div>
-
+{/* 
                                                 <h3 className="ms-product-title mb-10">
                                                     <Link href={`/shop-details/${item.id}`}>
                                                         {item.title}
                                                     </Link>
-                                                </h3>
+                                                </h3> */}
                                                 <span className="ms-product-price ms-text2">${item.price}</span>
                                             </div>
                                         ))

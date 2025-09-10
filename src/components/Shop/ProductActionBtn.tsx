@@ -17,9 +17,9 @@ const ProductActionBtn = () => {
                         <i className="flaticon-trolley-cart"></i></Link>
                         <span>{TotalCartQuantity}</span>
                     </li>
-                    <li><Link href="/wishlist"><i className="flaticon-heart"></i>
+                    {/* <li><Link href="/wishlist"><i className="flaticon-heart"></i>
                         <span>{TotalWishListQuantity}</span>
-                    </Link></li>
+                    </Link></li> */}
                 </ul>
             </div>
             {/* <CartProductSection/> */}

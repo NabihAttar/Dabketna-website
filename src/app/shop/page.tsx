@@ -14,7 +14,7 @@ const page = () => {
                     <main>
                         <ShopMainArea />
                         <Setting />
-                        <ShopDetailsMain/>
+                        {/* <ShopDetailsMain/> */}
                     </main>
                 </div>
             </Wrapper>

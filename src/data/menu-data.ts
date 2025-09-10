@@ -38,7 +38,7 @@ const menu_data: TMenuItem[] = [
         id: 2,
         hasDropdown: false,
         title: "Academy",
-        link: "/ideas-advice",
+        link: "/academy",
     },
     {
         id: 3,
@@ -50,7 +50,8 @@ const menu_data: TMenuItem[] = [
         id: 3,
         hasDropdown: false,
         title: "Weddings",
-        link: "/work-system",
+        // link: "/work-system",
+        link: "/ideas-advice",
     },
     {
         id: 4,

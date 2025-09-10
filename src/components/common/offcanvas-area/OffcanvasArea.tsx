@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import Logo from '../../../../public/assets/img/logo/logo.svg';
+import Logo from '../../../../public/assets/img/logo/newLogo.svg';
 import Image from 'next/image';
 import { imageLoader } from '@/hooks/ImageLoader';
 import MobileMenu from '@/layout/mobile-menu/MobileMenu';

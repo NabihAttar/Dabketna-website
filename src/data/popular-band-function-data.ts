@@ -5,7 +5,7 @@ import image2 from '../../public/assets/img/flags/Cyprus.svg';
 import image3 from '../../public/assets/img/flags/UAE.svg';
 import image4 from '../../public/assets/img/flags/india.svg';
 import image5 from '../../public/assets/img/flags/Jordan.svg';
-import image6 from '../../public/assets/img/flags/Lebanon.svg';
+import image6 from '../../public/assets/img/flags/Turkey.svg';
 import image7 from '../../public/assets/img/flags/Pakistan.svg';
 import image8 from '../../public/assets/img/flags/Syria.svg';
 
@@ -55,7 +55,7 @@ const popular_band_fuction_data: TPopularBands[] = [
     {
         id: 6,
         image: image6,
-        title: "Lebanon",
+        title: "Turkey",
         subTitle: "American rock group",
         locationName: "City Club",
         rating: 4
