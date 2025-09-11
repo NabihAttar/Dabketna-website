@@ -15,14 +15,38 @@ const EnquiryListArea = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-12">
-                            <div className="ms-enquiry-filter text-center mb-45">
-                                <form action="#">
-                                    <div className="ms-enquiry-date p-relative d-inline-block mr-20 mb-20">
+                            <div className="ms-enquiry-filter text-center mb-45" >
+                                {/* <form action="#" style={{ textAlign: "left" }}> */}
+                                {/* <div className="ms-enquiry-date p-relative d-inline-block mr-20 mb-20">
                                         <i className="fa-solid fa-calendar-days"></i>
                                         <DatePicker placeholderText='Select Event date' selected={startDate} onChange={(date) => setStartDate(date)} />
+                                    </div> */}
+                                {/* <div style={{ display: "flex", gap: "15px" }}>
+  <button type="submit" className="unfill__btn mb-20">Upcoming</button>
+  <button type="submit" className="unfill__btn mb-20">Past Events</button>
+</div> */}
+
+                                <div className="col-xl-6 col-lg-6" >
+                                    <div className="ms-popular__tab ms-popular-flex mb-40" >
+                                        <nav>
+                                            <div className="nav nav-tabs" id="nav-tab" role="tablist"  style={{ justifyContent: "flex-start" }}>
+                                                <button className="nav-link active" id="nav-popular-1-tab" data-bs-toggle="tab"
+                                                    data-bs-target="#nav-popular-1" type="button" role="tab"
+                                                    aria-controls="nav-popular-1" aria-selected="true">Upcoming</button>
+                                                <button className="nav-link" id="nav-popular-2-tab" data-bs-toggle="tab"
+                                                    data-bs-target="#nav-popular-2" type="button" role="tab"
+                                                    aria-controls="nav-popular-2" aria-selected="false">Past Events</button>
+                                                {/* <button className="nav-link" id="nav-popular-3-tab" data-bs-toggle="tab"
+                                            data-bs-target="#nav-popular-3" type="button" role="tab"
+                                            aria-controls="nav-popular-3" aria-selected="false">Event
+                                            Services</button> */}
+                                            </div>
+                                        </nav>
                                     </div>
-                                    <button type="submit" className="unfill__btn mb-20">Enquire Now</button>
-                                </form>
+                                </div>
+
+
+                                {/* </form> */}
                             </div>
 
                             <div className="ms-genres-item-box">

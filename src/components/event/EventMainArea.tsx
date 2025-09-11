@@ -8,7 +8,7 @@ import { imageLoader } from '@/hooks/ImageLoader';
 import PaginationData from '../common/pagination/pagination-data';
 import PartnerAreaMain from '../common/PartnerArea/PartnerAreaMain';
 import GenresListingArea from '../genres/GenresAboutArea';
-
+import EnquiryListArea from '../enquiry-list/EnquiryListArea'
 
 const EventMainArea = () => {
     return (
@@ -53,6 +53,7 @@ const EventMainArea = () => {
             </section> */}
             {/* <PartnerAreaMain /> */}
             {/* <GenresListingArea/> */}
+            <EnquiryListArea/>
         </>
     );
 };

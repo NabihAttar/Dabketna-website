@@ -1,13 +1,14 @@
 'use client'
 import React from 'react';
 import Breadcrumb from '../common/breadcrumb/Breadcrumb';
-import EventDetailsSidebar from './EventDetailsSidebar';
+// import EventDetailsSidebar from './EventDetailsSidebar';
 import Image from 'next/image';
 import { imageLoader } from '@/hooks/ImageLoader';
 import chooseBgImg from '../../../public/assets/img/choose/choose-bg.png'
 import { TLetestNews, idType } from '@/types/types';
 import latest_news_data from '@/data/latest-news-data';
 import Link from 'next/link';
+import EventDetailsSidebar from '../event-details/EventDetailsSidebar';
 const EventDetailsMain = ({ id }: idType) => {
     const event: TLetestNews | undefined = latest_news_data.find((item) => item.id == id)
     return (
