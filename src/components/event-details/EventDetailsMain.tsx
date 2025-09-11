@@ -1,7 +1,6 @@
 'use client'
 import React from 'react';
 import Breadcrumb from '../common/breadcrumb/Breadcrumb';
-// import EventDetailsSidebar from './EventDetailsSidebar';
 import Image from 'next/image';
 import { imageLoader } from '@/hooks/ImageLoader';
 import chooseBgImg from '../../../public/assets/img/choose/choose-bg.png'
@@ -9,8 +8,10 @@ import { TLetestNews, idType } from '@/types/types';
 import latest_news_data from '@/data/latest-news-data';
 import Link from 'next/link';
 import EventDetailsSidebar from '../event-details/EventDetailsSidebar';
+
 const EventDetailsMain = ({ id }: idType) => {
     const event: TLetestNews | undefined = latest_news_data.find((item) => item.id == id)
+
     return (
         <>
             <Breadcrumb title={event?.title} />
@@ -36,33 +37,25 @@ const EventDetailsMain = ({ id }: idType) => {
                         </div>
                         <div className="col-lg-8">
                             <div className="ms-event-details-content">
-                                {/* <span className="ms-event-ddate d-inline-block mb-20">Nov 15, 2022</span> */}
                                 <h2 className="ms-event-dtitle mb-20">{event?.title}</h2>
-<p className="mb-25">
-    Our hand-picked acts will guarantee you fantastic wedding entertainment for each part. provide help and support 24 hours a day, 7 days a week...
-</p>
-<p className="mb-25">
-    Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei...
-</p>
-<p className="mb-25">
-    Grursus mal suada faci lisis Lorem ipsum dolarorit more a ametion consectetur elit. Vesti at bulum nec odio aea the dumm ipsumm ipsum that dolocons rsus mal suada and fadolorit to the consectetur elit. All Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words.
-</p>
-<p className="mb-25">
-    Our hand-picked acts will guarantee you fantastic wedding entertainment for each part. provide help and support 24 hours a day, 7 days a week, right up until Outstanding wedding band playing chart, indie, rock anthems and Britpop and featuring guitars, keyboards.
-</p>
-
+                                <p className="mb-25">
+                                    Our hand-picked acts will guarantee you fantastic wedding entertainment for each part. We&apos;ll provide help and support 24 hours a day, 7 days a week...
+                                </p>
+                                <p className="mb-25">
+                                    Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei...
+                                </p>
+                                <p className="mb-25">
+                                    Grursus mal suada faci lisis Lorem ipsum dolarorit more a ametion consectetur elit. Vesti at bulum nec odio aea the dumm ipsumm ipsum that dolocons rsus mal suada and fadolorit to the consectetur elit. All Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words.
+                                </p>
+                                <p className="mb-25">
+                                    Our hand-picked acts will guarantee you fantastic wedding entertainment for each part. We&apos;ll provide help and support 24 hours a day, 7 days a week, right up until Outstanding wedding band playing chart, indie, rock anthems and Britpop and featuring guitars, keyboards.
+                                </p>
                             </div>
                             <Link href="/checkout" className="vr-btn"><span>Enroll Now</span></Link>
-
                         </div>
                     </div>
-
                 </div>
             </section>
-
-            {/* <EventMapArea /> */}
-            {/* <PartnerAreaMain spacingClass='pt-130' /> */}
-            {/* <GenresListingArea/> */}
         </>
     );
 };
