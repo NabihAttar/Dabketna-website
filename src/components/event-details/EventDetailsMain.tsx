@@ -38,21 +38,19 @@ const EventDetailsMain = ({ id }: idType) => {
                             <div className="ms-event-details-content">
                                 {/* <span className="ms-event-ddate d-inline-block mb-20">Nov 15, 2022</span> */}
                                 <h2 className="ms-event-dtitle mb-20">{event?.title}</h2>
-                                <p className="mb-25">
-                                    Our hand-picked acts will guarantee you fantastic wedding entertainment for each part. {`We'll`} provide help and support 24 hours a day, 7 days a week...
-                                </p>
-                                <p className="mb-25">
-                                    Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei...
-                                </p>
-                                {/* <div className="ms-blockquote mb-25">
-                                    <blockquote>
-                                        <i className="flaticon-quotation"></i>
-                                        <h4>Music is an agreeable harmony for the honor of God and the permissible delights of the soul.</h4>
-                                        <span>Johann Sebastian Bach</span>
-                                    </blockquote>
-                                </div> */}
-                                <p className="mb-25">Grursus mal suada faci lisis Lorem ipsum dolarorit more a ametion consectetur elit. Vesti at bulum nec odio aea the dumm ipsumm ipsum that dolocons rsus mal suada and fadolorit to the consectetur elit. All Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words.</p>
-                                <p className="mb-25">Our hand-picked acts will guarantee you fantastic wedding entertainment for each part. We'll provide help and support 24 hours a day, 7 days a week, right up until Outstanding wedding band playing chart, indie, rock anthems and Britpop and featuring guitars, keyboards.</p>
+<p className="mb-25">
+    Our hand-picked acts will guarantee you fantastic wedding entertainment for each part. {`We'll`} provide help and support 24 hours a day, 7 days a week...
+</p>
+<p className="mb-25">
+    Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei...
+</p>
+<p className="mb-25">
+    Grursus mal suada faci lisis Lorem ipsum dolarorit more a ametion consectetur elit. Vesti at bulum nec odio aea the dumm ipsumm ipsum that dolocons rsus mal suada and fadolorit to the consectetur elit. All Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words.
+</p>
+<p className="mb-25">
+    Our hand-picked acts will guarantee you fantastic wedding entertainment for each part. We&apos;ll provide help and support 24 hours a day, 7 days a week, right up until Outstanding wedding band playing chart, indie, rock anthems and Britpop and featuring guitars, keyboards.
+</p>
+
                             </div>
                             <Link href="/checkout" className="vr-btn"><span>Enroll Now</span></Link>
 
