@@ -40,7 +40,7 @@ const EventDetailsMain = ({ id }: idType) => {
                                 <h2 className="ms-event-dtitle mb-20">{event?.title}</h2>
 
                                 <p className="mb-25">
-                                    Our hand-picked acts will guarantee you fantastic wedding entertainment for each part. We&apos;ll provide help and support 24 hours a day, 7 days a week...
+                                    {"Our hand-picked acts will guarantee you fantastic wedding entertainment for each part. We'll provide help and support 24 hours a day, 7 days a week..."}
                                 </p>
 
                                 <p className="mb-25">
@@ -52,7 +52,7 @@ const EventDetailsMain = ({ id }: idType) => {
                                 </p>
 
                                 <p className="mb-25">
-                                    Our hand-picked acts will guarantee you fantastic wedding entertainment for each part. We&apos;ll provide help and support 24 hours a day, 7 days a week, right up until outstanding wedding band playing chart, indie, rock anthems and Britpop and featuring guitars, keyboards.
+                                    {"Our hand-picked acts will guarantee you fantastic wedding entertainment for each part. We'll provide help and support 24 hours a day, 7 days a week, right up until outstanding wedding band playing chart, indie, rock anthems and Britpop and featuring guitars, keyboards."}
                                 </p>
                             </div>
 
