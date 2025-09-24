@@ -2,9 +2,6 @@
 "use client";
 import React from "react";
 import BacktoTop from "@/components/common/backToTop/BacktoTop";
-if (typeof window !== "undefined") {
-  require("bootstrap/dist/js/bootstrap");
-}
 import { usePathname } from "next/navigation";
 import HeaderOne from "./header/HeaderOne";
 import FooterOne from "./footer/FooterOne";

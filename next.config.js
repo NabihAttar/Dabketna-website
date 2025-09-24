@@ -15,12 +15,12 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  
+
   images: {
     domains: [
-      "localhost",       // remove this if not needed
-      "yourdomain.com",  // replace with your actual image domain(s)
-      "cdn.yoursite.com" // add more if required
+      "localhost", // remove this if not needed
+      "yourdomain.com", // replace with your actual image domain(s)
+      "cdn.yoursite.com", // add more if required
     ],
   },
 };
